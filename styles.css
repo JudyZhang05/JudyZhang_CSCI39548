@@ -1,0 +1,23 @@
+.box p{
+    margin: 0;
+    padding: 10px;
+    border: solid 2px;
+    width: 10%;
+    height: 100px;
+}
+#box1 p{
+    margin-left: 5%;
+    border: solid 2px;
+}
+#box2 p{
+    margin-left: 10%;
+    border: solid 4px;
+}
+#box3 p{
+    margin-left: 15%;
+    border: solid 8px;
+}
+#box4 p{
+    margin-left: 20%;
+    border: solid 16px;
+}
