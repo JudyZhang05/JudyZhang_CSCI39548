@@ -1,6 +1,6 @@
 ## CUNY HUNTER COLLEGE - CSCI39548
 
-**Professor**: Jamie Canizales 
+**Professor**: Jamie Canizales <br>
 **Student**: Judy Zhang
 
 <br>

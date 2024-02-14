@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+    width: 30%;
+}
+.homework{
+    padding:1%;
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+a:hover{
+    color: brown;
+}
