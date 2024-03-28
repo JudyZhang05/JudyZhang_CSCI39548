@@ -123,12 +123,12 @@ function reverseArray(array){
 }
 
 function reverseArrayInPlace(array){
-    let oldArray = array;
-    array = [];
-    for (let i = oldArray.length-1; i > 0; i--){
-        array.push(oldArray[i]);
-    }
-    return array;
+	let arrayLength = array.length/2; 
+ 	for(let i = 0, j = array.length-1-i; i < arrayLength; i++, j--){
+      	let flip = array[i];
+  		array[i] = array[j];
+        array[j] = flip;
+  }
 }
 
 function arrayToList(array){
@@ -226,10 +226,10 @@ function deepEqual(value1,value2){
 
 // console.log(reverseArray(range(1,10)));
 
-// let myArray = range(1,10);
-// console.log(myArray);
-// myArray = reverseArrayInPlace(myArray)
-// console.log(myArray);
+// let arrayValue = [1, 2, 3, 4, 5];
+// reverseArrayInPlace(arrayValue);
+// console.log(arrayValue);
+// → [5, 4, 3, 2, 1]
 
 // console.log(arrayToList([1,2,3,4,5]))
 
