@@ -16,6 +16,10 @@ for (let btn of btns){
     });
 }
 
+let key = document.addEventListener("keydown", (event) => {
+    addNoise(event.key)
+});
+
 function addNoise(pressedBtn)
 {
     var audio = new Audio(drumKit[pressedBtn][1]);
