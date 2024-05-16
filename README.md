@@ -20,4 +20,4 @@ Depending on the name you have inputed, the program will output a different vill
 * Install all dependencies ~npm i~
 * Run in terminal ~nodemon index.js~ to deploy page
 * Go to the localhost url ~http://localhost:3000~
-* Say Hi to Stephen King for me
+* Say Hi to Stephen King for me 

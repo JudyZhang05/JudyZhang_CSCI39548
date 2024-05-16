@@ -15,3 +15,4 @@ This course is an introduction to the fundamental concepts in web development. A
 * **C**: Cleaned up code
 * **Fx**: Resolved error
 * **HW**: Completed Homework
+ 
