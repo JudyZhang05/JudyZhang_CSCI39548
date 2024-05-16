@@ -13,8 +13,10 @@
             margin: 0;
             color: red;
             background-color: black;
+            position: relative;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: "Reenie Beanie", cursive;
@@ -31,25 +33,20 @@
             font-size: 2.5rem;
         }
         #villain, #sk{
-            transition: 1.5s ease;
-            
+            transition: 1s ease;
+            border-bottom: red solid .3rem;
         }
         #villain{
             background-color: red;
             color: black;
         }
-        #head:hover  #villain{
+        #head:hover #villain{
             background-color: black;
             color: red;
-            border-bottom: solid .3rem;
         }
-        #sk{
-            border-bottom: solid .3rem;
-        }
-        #head:hover  #sk{
+        #head:hover #sk{
             background-color: red;
             color: black;
-            border-bottom: none;
         }
         img{
             width: 30%;
@@ -85,7 +82,8 @@
         }
         footer{
             width: 100%;
-            position: absolute;
+            position: fixed;
+            background-color: black;
             bottom: 0;
             text-align: center;
             font-size: 1.5rem;;
@@ -107,14 +105,16 @@
 
         .general{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             align-items: baseline;
+            margin-bottom: 4%;
         }
         .attri{
             display: flex;
             align-items: baseline;
         }
         .attri h5{
+            margin: 5%;
             margin-right: 5%;
         }
         ul{
@@ -122,9 +122,10 @@
             flex-direction: column;
             justify-content: center;
         }
-        h5{
-            text-align: center;
-            font-size: 2rem;
+        #haunted{
+            font-size: 1.5rem;
+            margin: 0px;
+            text-decoration: underline;
         }
         p{
             text-align: center;
@@ -136,6 +137,9 @@
             }
             li{
                 all:unset;
+            }
+            h5{
+                text-align: center;
             }
         }
 

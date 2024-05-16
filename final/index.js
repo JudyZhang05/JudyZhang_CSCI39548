@@ -45,7 +45,6 @@ app.post("/submit", async (req,res) => {
     }
 
     //disploy villian ejs and pass data through
-    console.log(result[vilTag].books.length)
     res.render("villain.ejs", {villain: vilName, gender: result[vilTag].gender, status: result[vilTag].status, books: result[vilTag].books}); //result[vilTag].books.forEach((b) => b.title)
     }
 

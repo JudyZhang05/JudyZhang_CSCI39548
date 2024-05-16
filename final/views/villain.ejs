@@ -5,7 +5,7 @@
             <h1 style="background-color:red; color:black;"> <%= villain %> </h1>
             <div class="details">
                 <div class="general">
-                    <h4><u>About Yourself:</u></h4>
+                    <h3 id="haunted"><u>About Yourself:</u></h3>
                     <span class="attri"> 
                         <h5>Gender:</h5>
                         <%= gender %>
@@ -15,7 +15,7 @@
                         <%= status %> 
                     </span>
                 </div>
-                <h5>Books You Haunted:</h5>
+                <h5 id="haunted">Books You Haunted:</h5>
                 <% if(books.length > 0){ %> <!-- Some villains played in more than one book thus showing them all respectively-->
                     <ul>
                         <% for( let book of books ) { %>
