@@ -27,7 +27,7 @@ app.post("/submit", async (req,res) => {
     let vilNum = 0;
     let vilName = "";
 
-    //itterate through api to compare names and years
+    //iterate through api to compare names and years
     for (let y = 0; y < result.length; y++){
       match = 0;
       if(result[y].name[0].toLowerCase() == name[0] && year % 2 == result[y].id % 2){   //filter through to first matching letter and matching even/odd year 
