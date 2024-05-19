@@ -8,7 +8,11 @@
                     <h3 id="haunted"><u>About Yourself:</u></h3>
                     <span class="attri"> 
                         <h5>Gender:</h5>
-                        <%= gender %>
+                        <% if(gender == null){ %>
+                            N/A
+                        <% } else{  %>
+                            <%= gender %>
+                        <% } %>
                     </span>
                     <span class="attri"> 
                         <h5>Status:</h5>
